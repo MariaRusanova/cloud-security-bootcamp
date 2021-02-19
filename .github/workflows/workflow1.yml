@@ -28,6 +28,3 @@ jobs:
         template: labs/lab-3/lab-3.yml
         capabilities: CAPABILITY_IAM
         
-        - uses: minchao/cfn-nag-action@master
-  with:
-    args: '--input-path template.yaml'
